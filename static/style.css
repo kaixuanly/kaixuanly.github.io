@@ -20,6 +20,7 @@ nav{
 	float: left;
 	width: 78px;
 	height: auto;
+	margin-left: 10px;
 }
 
 nav ul{
@@ -50,7 +51,10 @@ nav #icon{
 	display: none;
 }
 
-@media (max-width: 1048px){
+@media (max-width: 950px){
+	.logo img{
+		margin-left: 0;
+	}
 	nav ul{
 		margin-right: 20px;
 	}
@@ -60,6 +64,9 @@ nav #icon{
 	}
 }
 @media (max-width: 850px){
+	.logo img{
+		margin-left: 40px;
+	}
 	nav #icon{
 		display: block;
 	}
