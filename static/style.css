@@ -18,7 +18,7 @@ nav{
 
 .logo img{
 	float: left;
-	width: 80px;
+	width: 78px;
 	height: auto;
 }
 
@@ -29,7 +29,7 @@ nav ul{
 
 nav li{
 	display: inline-block;
-	margin: 0 8px;
+	margin: 0 6px;
 	line-height: 80px;
 }
 
@@ -51,10 +51,6 @@ nav #icon{
 }
 
 @media (max-width: 1048px){
-	img.logo{
-		width: 90px;
-	}
-
 	nav ul{
 		margin-right: 20px;
 	}
@@ -94,8 +90,7 @@ nav #icon{
 	}
 }
 
-section{
-	background: url("/static/cover.png") no-repeat;
-	background-size: cover;
-	height: calc(100vh - 80px); 
+.cover img{
+	width: 100%;
+	height: auto;
 }
