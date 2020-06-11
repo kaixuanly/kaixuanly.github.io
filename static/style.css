@@ -1,4 +1,101 @@
-body {
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+nav{
+	height: 80px;
+	width: 100%;
+	background: #c0e5ed;
+}
+
+img.logo{
+	float: left;
+	width: 100px;
+	height: auto;
+}
+
+nav ul{
+	float: right;
+	margin-right: 40px;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 80px;
+}
+
+nav a{
+	color: white;
+	font-size: 15px;
+	border: 1px solid transparent;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+nav #icon{
+	color: white;
+	font-size: 30px;
+	line-height: 80px;
+	float: right;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 1048px){
+	img.logo{
+		width: 90px;
+	}
+
+	nav ul{
+		margin-right: 20px;
+	}
+
+	nav a{
+		font-size: 14px;
+	}
+}
+@media (max-width: 850px){
+	nav #icon{
+		display: block;
+	}
+
+	nav ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #c0e5ed;
+		top: -100%;
+		left: 0%;
+		text-align: center;
+		transition: all .5s;
+	}
+
+	nav li{
+		display: block;
+		margin: 40px 0;
+		line-height: 30px;
+	}
+
+	nav a{
+		font-size: 17px;
+	}
+
+	nav ul.show{
+		top: 80px;
+	}
+}
+
+section{
+	background: url("/static/me.png") no-repeat;
+	background-size: cover;
+	height: calc(100vh - 80px); 
 }
