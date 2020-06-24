@@ -62,8 +62,6 @@ nav #icon{
     text-align: center;
     background-color: white;
     font-size: 25px;
-    padding-right: 20%;
-    padding-left: 20%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -71,13 +69,18 @@ nav #icon{
 .wrapper div img{
     width: 150px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .wrapper div p #topic{
 	font-size: 35px;
 	color: #c0e5ed;
 	margin-bottom: 10px;
+}
+
+.wrapper div p{
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 @media (max-width: 950px){
