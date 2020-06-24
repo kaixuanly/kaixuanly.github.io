@@ -50,6 +50,12 @@ nav #icon{
 	cursor: pointer;
 	display: none;
 }
+.wrapper div{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+}
 
 @media (max-width: 950px){
 	.logo img{
