@@ -52,16 +52,32 @@ nav #icon{
 	display: none;
 }
 
+.wrapper {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
 .wrapper div{
     width: 100%;
     text-align: center;
     background-color: white;
     font-size: 25px;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .wrapper div img{
-    width: 200px;
+    width: 150px;
     height: auto;
+    margin-bottom: 10px;
+}
+
+.wrapper div p #topic{
+	font-size: 35px;
+	color: #c0e5ed;
+	margin-bottom: 10px;
 }
 
 @media (max-width: 950px){
