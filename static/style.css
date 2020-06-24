@@ -52,16 +52,11 @@ nav #icon{
 	display: none;
 }
 
-.wrapper {
-	padding-top: 10%;
-	padding-bottom: 10%;
-}
-
 .wrapper div{
     width: 100%;
     text-align: center;
     background-color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -74,13 +69,13 @@ nav #icon{
 
 .wrapper div h2{
 	font-size: 30px;
-	color: blue;
-	margin-bottom: 10px;
+	color: lightblue;
+	margin-bottom: 15px;
 }
 
 .wrapper div p{
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 @media (max-width: 950px){
