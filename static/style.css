@@ -64,7 +64,7 @@ nav #icon{
     width: 100%;
     text-align: left;
     background-color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -72,7 +72,7 @@ nav #icon{
 .wrapper div img{
     width: 150px;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     display: block;
     margin-right: auto;
     margin-left: auto;
