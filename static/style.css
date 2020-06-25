@@ -55,6 +55,7 @@ nav #icon{
 }
 
 .cover img{
+	margin-top: 100px;
 	width: 100%;
 	height: auto;
 }
@@ -79,7 +80,7 @@ nav #icon{
 
 .wrapper div h2{
 	font-size: 30px;
-	color: #2F89EE;
+	color: #6DAFF9;
 	margin-bottom: 15px;
 	text-align: center;
 }
@@ -103,8 +104,12 @@ nav #icon{
 	}
 
 	.wrapper div{
-    	font-size: 18px;
+    	font-size: 15px;
     }
+
+    .wrapper div img{
+    	width: 130px;
+	}
 
     .wrapper div h2{
     	font-size: 25px;
@@ -145,8 +150,12 @@ nav #icon{
 	}
 
 	.wrapper div{
-    	font-size: 15px;
+    	font-size: 12px;
     }
+
+    .wrapper div img{
+    	width: 100px;
+	}
 
     .wrapper div h2{
     	font-size: 22px;
