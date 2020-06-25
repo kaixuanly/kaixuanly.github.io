@@ -14,6 +14,7 @@ nav{
 	height: 100px;
 	width: 100%;
 	background: #c0e5ed;
+	position: fixed;
 }
 
 .logo img{
@@ -53,6 +54,11 @@ nav #icon{
 	display: none;
 }
 
+.cover img{
+	width: 100%;
+	height: auto;
+}
+
 .wrapper div{
     width: 100%;
     text-align: left;
@@ -73,7 +79,7 @@ nav #icon{
 
 .wrapper div h2{
 	font-size: 30px;
-	color: lightblue;
+	color: #2F89EE;
 	margin-bottom: 15px;
 	text-align: center;
 }
@@ -95,11 +101,20 @@ nav #icon{
 	nav a{
 		font-size: 14px;
 	}
+
+	.wrapper div{
+    	font-size: 18px;
+    }
+
+    .wrapper div h2{
+    	font-size: 25px;
+    }
 }
 @media (max-width: 850px){
 	.logo img{
 		margin-left: 40px;
 	}
+
 	nav #icon{
 		display: block;
 	}
@@ -126,11 +141,14 @@ nav #icon{
 	}
 
 	nav ul.show{
-		top: 80px;
+		top: 100px;
 	}
-}
 
-.cover img{
-	width: 100%;
-	height: auto;
+	.wrapper div{
+    	font-size: 15px;
+    }
+
+    .wrapper div h2{
+    	font-size: 22px;
+    }
 }
