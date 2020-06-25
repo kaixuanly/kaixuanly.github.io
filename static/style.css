@@ -11,7 +11,7 @@ body{
 }
 
 nav{
-	height: 80px;
+	height: 100px;
 	width: 100%;
 	background: #c0e5ed;
 }
@@ -31,7 +31,7 @@ nav ul{
 nav li{
 	display: inline-block;
 	margin: 0 4px;
-	line-height: 80px;
+	line-height: 100px;
 }
 
 nav a{
@@ -45,7 +45,7 @@ nav a{
 nav #icon{
 	color: white;
 	font-size: 30px;
-	line-height: 80px;
+	line-height: 100px;
 	float: right;
 	margin-right: 40px;
 	cursor: pointer;
