@@ -21,6 +21,7 @@ nav{
 	width: 78px;
 	height: auto;
 	margin-left: 10px;
+	margin-top: 10px;
 }
 
 nav ul{
@@ -77,6 +78,10 @@ nav #icon{
 	margin-left: 25%;
 	margin-right: 25%;
 	line-height: 200%;
+}
+
+.wrapper div p .list_left{
+	text-align: left;
 }
 
 @media (max-width: 950px){
