@@ -55,7 +55,7 @@ nav #icon{
 
 .wrapper div{
     width: 100%;
-    text-align: center;
+    text-align: left;
     background-color: white;
     font-size: 20px;
     padding-top: 5%;
@@ -80,8 +80,8 @@ nav #icon{
 	line-height: 200%;
 }
 
-.wrapper div p .list_left{
-	text-align: left;
+.wrapper p .intro{
+	text-align: center;
 }
 
 @media (max-width: 950px){
