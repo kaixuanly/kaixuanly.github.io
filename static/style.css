@@ -94,12 +94,16 @@ nav #icon{
 	margin-left: 25%;
 	margin-right: 25%;
 	line-height: 200%;
-	list-style-image: url(/static/flag.png);
+	list-style: none;
 }
 
-.wrapper div ul li{
+.wrapper div li{
 	margin-left: 20px;
-	display: list-item;
+}
+
+.wrapper div li::before {
+  content: "\219D";
+  color: #6DAFF9; 
 }
 
 @media (max-width: 950px){
