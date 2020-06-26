@@ -94,11 +94,13 @@ nav #icon{
 .wrapper div ul{
 	margin-left: 25%;
 	margin-right: 25%;
+	line-height: 200%;
 	list-style-type: square;
 }
 
 .wrapper div ul li{
-	margin-left: 10px;
+	margin-left: 20px;
+	display: list-item;
 }
 
 @media (max-width: 950px){
