@@ -94,7 +94,7 @@ nav #icon{
 	margin-left: 25%;
 	margin-right: 25%;
 	line-height: 200%;
-	list-style-type: square;
+	list-style-image: url(/static/flag.png);
 }
 
 .wrapper div ul li{
