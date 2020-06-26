@@ -102,7 +102,7 @@ nav #icon{
 }
 
 .wrapper div li::before {
-  content: "\219D  ";
+  content: "\2022  ";
   color: #6DAFF9; 
 }
 
@@ -142,7 +142,6 @@ nav #icon{
 	nav ul{
 		position: fixed;
 		width: 100%;
-		height: 100vh;
 		background: #c0e5ed;
 		top: -100%;
 		left: 0%;
