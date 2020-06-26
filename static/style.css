@@ -91,6 +91,12 @@ nav #icon{
 	line-height: 200%;
 }
 
+.wrapper div ul{
+	margin-left: 25%;
+	margin-right: 25%;
+	line-height: 200%;
+}
+
 @media (max-width: 950px){
 	.logo img{
 		margin-left: 0;
