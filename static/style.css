@@ -102,7 +102,7 @@ nav #icon{
 }
 
 .wrapper div li::before {
-  content: "\219D";
+  content: "\219D  ";
   color: #6DAFF9; 
 }
 
